@@ -272,6 +272,12 @@ export default class Presentation extends React.Component {
             </Heading>
           </S>
         </Slide>
+
+        <Slide transition={['zoom']} bgColor={Colors.white}>
+          <List>
+            <ListItem>https://github.com/tc39</ListItem>
+          </List>
+        </Slide>
       </Deck>
     );
   }
