@@ -264,6 +264,14 @@ export default class Presentation extends React.Component {
             source={Samples.objectSpread}
           />
         </Slide>
+
+        <Slide transition={['zoom']} bgColor={Colors.white}>
+          <S type="underline">
+            <Heading size={1} fit caps lineHeight={1} textColor={Colors.black}>
+              END
+            </Heading>
+          </S>
+        </Slide>
       </Deck>
     );
   }
